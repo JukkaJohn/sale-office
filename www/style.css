@@ -4,7 +4,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 2em;
-    background-color:   whitesmoke;
+  background-color: white;
 }
 
 head {
@@ -58,12 +58,12 @@ h3 {
 	font-family: Didot;
 }
 
-a:link {
-	color: lightyellow;
+a {
+	color: black;
 }
 
 a:hover {
-	color: green;
+	color: firebrick;
 }
 
 a:active {
@@ -138,5 +138,3 @@ footer {
 	padding: 0 2em;
 	overflow: hidden;
 }
-
-
