@@ -2,6 +2,10 @@
 
 ## Installation
 
+### Pre-requisites
+
+Docker needs to be [installed](https://docs.docker.com/install/)
+
 Build the Docker image
 
 ```
