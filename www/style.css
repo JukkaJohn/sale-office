@@ -1,0 +1,142 @@
+body {
+	font-family: , sans-serif;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2em;
+    background-color:   whitesmoke;
+}
+
+head {
+	margin-top: 48;
+}
+
+h1 {
+	font-size: 28pt;
+	font-family: serif;
+
+}
+
+nav ul {
+	font-family: sans-serif;
+	font-weight: lighter;
+	padding-left: 0;
+}
+
+nav ul li {
+	border-right: 5px solid #8B0000;
+	margin: 0;
+	padding: 5px 5em 5px .5em;
+	background-color: #B22222;
+	display: inline-block;
+}
+
+nav#menu a {
+	text-decoration: none;
+    color: white;
+}
+
+
+nav#menu a:hover {
+    color: yellow;
+}
+
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto 500px;
+}
+
+.grid-item {
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 20px;
+	font-size: 20px;
+	text-align: justify;
+}
+
+h3 {
+	font-family: Didot;
+}
+
+a:link {
+	color: lightyellow;
+}
+
+a:hover {
+	color: green;
+}
+
+a:active {
+	color: aliceblue;
+}
+
+img#large {
+	border: 6px solid black;
+	width: 70%;
+	height: auto;
+	margin-top: 4px;
+}
+
+img#leuk {
+	border: 3px solid black;
+	width: 70%;
+	height: auto;
+	margin-top: 4px;
+}
+img#groot {
+	border: 6px solid red;
+	width: 70%;
+	height: auto;
+	margin-top: 4px;
+    -webkit-filter: grayscale(100%) brightness(120%) sepia(90%) hue-rotate(5deg) saturate(500%) contrast(0.7);
+      filter: grayscale(100%) brightness(120%) sepia(90%) hue-rotate(5deg) saturate(900%) contrast(0.7);
+}
+
+img#small {
+	border: 6px solid black;
+	width: 60%;
+	height: 70%;
+	margin-top: 4px;
+}
+
+
+
+table.mooietabel {
+	/*	border: 1px solid red;*/
+	padding: 0;
+	margin: 0;
+	border-collapse: collapse;
+	border: 0;
+}
+
+table.mooietabel tr {
+	padding: 0;
+	margin: 0;
+}
+
+table.mooietabel tr:hover {
+	background-color: lightblue;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+table.mooietabel tr td,
+table.mooietabel tr th {
+	/*	border: 1px solid red;*/
+	padding: .2em .5em;
+	margin: 0;
+	border: 0;
+	border-bottom: 1px solid #ddd;
+}
+
+footer {
+	border: 3px solid black;
+    color: white;
+	background-color: #B22222;
+	padding: 0 2em;
+	overflow: hidden;
+}
+
+

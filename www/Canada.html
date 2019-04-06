@@ -1,0 +1,89 @@
+<! DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>
+        Kantoorartikelen
+    </title>
+    <img src="assets/saleoffice.png" alt="saleoffice.png" style="width:150px">
+</head>
+
+<body>
+    <header id="bovenste">
+        <h1>Dit is een site voor kantoorartikelen</h1>
+
+
+    </header>
+    <nav id="menu">
+        <ul>
+            <li><a href="Canada.html">Home</a></li>
+            <li><a href="http://localhost:8080/leverancier.php">Leveranciers</a></li>
+            <li><a href="http://localhost:8080/Klant.php">Klanten</a></li>
+            <li><a href="OverOns.html">Over Ons</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h2>Koop hier uw kwalitatief excellente kantoorartikelen, geleverd door de grootste leveranciers wereldwijd</h2>
+
+    <img id="large" src="assets/computer.jpg">
+
+
+    <p>
+        <h2> Hieronder een aantal producten die aan de lopende band verkocht worden</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img id="groot" src="assets/balpen1.png">
+            </div>
+            <div class="grid-item">
+                Deze balpen is van uitstekende kwaliteit en verhoogt uw schrijfkunsten.
+            </div>
+        </div>
+        <h2>Bereken hieronder de prijs van balpennen!</h2>
+        <form onsubmit="return false">
+
+            <label for="aantal_balpennen1">Aantal balpennen:</label>
+            <input id="aantal_balpennen1" type="number" min="1" max="" />
+
+            <input type="submit" value="Submit" onclick="bereken('1', 300);">
+            <span id="prijs1"></span>
+
+        </form>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img id="groot" src="assets/potlood1.jpg">
+            </div>
+            <div class="grid-item">
+                Dit potlood dient uw doel, onafhankelijk van uw omstandigheden, perfect.
+            </div>
+        </div>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img id="groot" src="assets/kladblok.jpg">
+            </div>
+            <div class="grid-item">
+                Uw vergeet geen enkel geniaal idee meer door dit handige kladblok. Een kladblok ToGo.
+            </div>
+        </div>
+
+</body>
+
+</html>
+<script>
+    function bereken(veld, prijs) {
+
+        var aantal_balpennen = parseInt(document.getElementById('aantal_balpennen' + veld).value);
+        var prijs = (1.75) * aantal_balpennen;
+        document.getElementById('prijs' + veld).innerHTML = 'Prijs: €' + prijs;
+        var prijs = prijs;
+        prijs = prijs.toFixed(2);
+        return false;
+    }
+
+</script>
+
+<footer>
+    <p style="width: 200px; float: left">Copyright® 2019</p>
+    <p style="float: right; display: inline-block">Jukka John & Sahil Singh</p>
+</footer>
