@@ -6,11 +6,15 @@
 
 Docker needs to be [installed](https://docs.docker.com/install/)
 
+### Build Docker image
+
 Build the Docker image
 
 ```
 docker build --name sale-office .
 ```
+
+### Run the server
 
 Run the site
 ```
